@@ -19,6 +19,8 @@ import { Product } from '../product.model';
     @Input() product!: Product;
     @Output() productClicked: EventEmitter<any> = new EventEmitter();
 
+    today = new Date();
+
     constructor() {
         console.log('1. constructor')
     }
