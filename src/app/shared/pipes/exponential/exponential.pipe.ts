@@ -4,9 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'exponential'
 })
 export class ExponentialPipe implements PipeTransform {
-
   transform(value: number): unknown {
     return Math.pow(value,2);
   }
-
 }
