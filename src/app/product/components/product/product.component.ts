@@ -24,7 +24,7 @@ import { CartService } from 'src/app/core/services/cart.service';
     today = new Date();
 
     constructor( private cartService: CartService) {
-        console.log('1. constructor')
+        // console.log('1. constructor')
     }
 
     // ngOnChanges(changes: SimpleChanges){
@@ -33,15 +33,15 @@ import { CartService } from 'src/app/core/services/cart.service';
     // }
 
     ngOnInit(){
-        console.log('3. ngOnInit')
+        // console.log('3. ngOnInit')
     }
 
     ngDoCheck(){
-        console.log('4. DoCheck')
+        // console.log('4. DoCheck')
     }
 
     ngOnDestroy(){
-        console.log('5. ngOnDestroy')
+        // console.log('5. ngOnDestroy')
     }
 
     addCart() {
