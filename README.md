@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PlatziStore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# platzi-store
+Proyecto del curso Angular 8
+>>>>>>> 0dc681462e5fa0fc34a285a41d4a6adc009b9471
